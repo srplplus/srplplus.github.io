@@ -18,7 +18,7 @@ Our methodology is built upon a pretrained audio large model WavLM-base-plus for
 
 [Link to pretrained AudioLM](https://huggingface.co/microsoft/wavlm-base-plus-sv)
 
-![Self-supervised learning (SSL)]([images/diagram.png](https://raw.githubusercontent.com/patrickvonplaten/scientific_images/master/wavlm.png))
+![Self-supervised learning (SSL) WavLM](images/wavlm.png "Self-supervised learning (SSL) WavLM")
 
 
 ## Evaluations
