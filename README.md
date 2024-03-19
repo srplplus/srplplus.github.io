@@ -27,6 +27,10 @@ The evaluation section details the performance metrics, comparison with baseline
 ## Code
 Code used in this research for model training, and evaluation, is available for public use after publication. This encourages reproducibility and further experimentation in the field.
 
+### SRPL+ Training Code Release
+
+**Please note**: The training code for SRPL+ will be **released after the publication** of our research paper. This decision ensures that we provide a comprehensive and fully reviewed codebase that aligns with the final published methods and results.
+
 [Link to code repository]()
 
 ## Visualization and Evaluations
