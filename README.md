@@ -5,16 +5,21 @@ This project introduces an innovative approach to open-set speaker identificatio
 
 ## Dataset
 We utilize two primary datasets in our research:
-- **Snapdragon**: (Here, provide a brief description of the Snapdragon dataset, including its characteristics and why it's suitable for this research.)
-- **HeyMiya**: (Provide details about the HeyMiya dataset, highlighting its unique features and contribution to the research.)
+- **Qualcomm Speech**: (Here, provide a brief description of the Snapdragon dataset, including its characteristics and why it's suitable for this research.)
 
-[Link to Snapdragon dataset]()
-[Link to HeyMiya dataset]()
+[Link to Qualcomm dataset]()
+
+- **FFSVC HiMia**: (Provide details about the HeyMiya dataset, highlighting its unique features and contribution to the research.)
+
+[Link to HiMia dataset]()
 
 ## Pretrained Audio Large Model
-Our methodology is built upon a pretrained audio large model, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for efficient and effective speaker identification.
+Our methodology is built upon a pretrained audio large model WavLM-base-plus for TDNN speaker verification, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for effective speaker identification.
 
-[Link to pretrained model]()
+[Link to pretrained AudioLM](https://huggingface.co/microsoft/wavlm-base-plus-sv)
+
+![Self-supervised learning (SSL)]([images/diagram.png](https://raw.githubusercontent.com/patrickvonplaten/scientific_images/master/wavlm.png))
+
 
 ## Evaluations
 The evaluation section details the performance metrics, comparison with baseline models, and the impact of our proposed enhancements on open-set speaker identification. We provide a comprehensive analysis to demonstrate the superiority of our approach.
