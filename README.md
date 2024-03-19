@@ -34,11 +34,11 @@ This section provides a step-by-step guide on how to replicate our research find
 
 ## Citation
 Please cite our work if it contributes to your research:
-```bibtex
+
 @article{srplplus2024,
-  title={Enhancing Open-Set Speaker Identification through Rapid Tuning with Speaker Reciprocal Points and Negative Samples},
-  author={Anoymous Authors},
-  journal={Anoymous Journal},
-  year={2024},
-  publisher={Anoymous Publisher}
+title={Enhancing Open-Set Speaker Identification through Rapid Tuning with Speaker Reciprocal Points and Negative Samples},
+author={Anonymous Authors},
+journal={Anonymous Journal},
+year={2024},
+publisher={Anonymous Publisher}
 }
