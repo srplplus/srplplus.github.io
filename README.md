@@ -31,7 +31,13 @@ Our methodology is built upon a pretrained audio large model WavLM-base-plus for
 </p>
 
 ## Evaluations
-The evaluation section details the performance metrics, comparison with baseline models, and the impact of our proposed enhancements on open-set speaker identification. We provide a comprehensive analysis to demonstrate the superiority of our approach.
+The evaluation section details the performance metrics on open-set speaker identification. The Open Set Classification Rate (OSCR) calculates the area under the curve mapping the Correct Classification Rate (CCR) for known classes to the False Positive Rate (FPR) for unknown data, offering a threshold-independent evaluation for open-set.
+
+$CCR(TH) = \frac{|\{x \in TestData^{k} \mid \arg\max_{k} P(k|x) = k \cap P(k|x) \geq TH\}|}{|TestData^{k}|}$
+
+$FPR(TH) = \frac{|\{x \mid x \in Unknown \cap \max_k P(k|x) \geq TH\}|}{|Unknown|}$
+
+We provide this core evaluation metrics implementaion with other evaluation metrics in our code repository.
 
 [Evaluation metrics implementation](https://github.com/srplplus/srplplus.github.io)
 
