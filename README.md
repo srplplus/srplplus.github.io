@@ -11,6 +11,7 @@ This project introduces an innovative approach to open-set speaker identificatio
 </p>
 ## Dataset
 We utilize two primary datasets in our research:
+
 - **Qualcomm Speech**:
 
 [Link to Qualcomm Speech dataset](https://developer.qualcomm.com/project/keyword-speech-dataset)
