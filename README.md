@@ -3,8 +3,12 @@
 ## Overview
 This project introduces an innovative approach to open-set speaker identification, leveraging rapid tuning techniques with speaker reciprocal points and the strategic use of negative samples. By refining the identification process, our method achieves significant improvements in accuracy and efficiency, setting a new benchmark in speaker recognition technology.
 
-
-
+<p align="center">
+  <img src="images/srpl_arch.png" alt="SRPL+ Architecture" width="50%" />
+</p>
+<p align="center">
+  <img src="images/srpl.png" alt="SRPL+ Process" width="50%" />
+</p>
 ## Dataset
 We utilize two primary datasets in our research:
 - **Qualcomm Speech**:
@@ -13,15 +17,16 @@ We utilize two primary datasets in our research:
 
 - **FFSVC HiMia**:
 
-[Link to HiMia dataset](http://www.openslr.org/85/)
+[Link to HiMia dataset](https://aishelltech.com/wakeup_data)
 
 ## Pretrained Audio Large Model
 Our methodology is built upon a pretrained audio large model WavLM-base-plus for TDNN speaker verification, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for effective speaker identification.
 
 [Link and Details to the pretrained WavLM-TDNN AudioLM](https://huggingface.co/microsoft/wavlm-base-plus-sv)
 
-![Self-supervised learning (SSL) WavLM](images/wavlm.png "Self-supervised learning (SSL) WavLM")
-
+<p align="center">
+  <img src="images/wavlm.png" alt="SRPL+ Architecture" width="50%" />
+</p>
 
 ## Evaluations
 The evaluation section details the performance metrics, comparison with baseline models, and the impact of our proposed enhancements on open-set speaker identification. We provide a comprehensive analysis to demonstrate the superiority of our approach.
