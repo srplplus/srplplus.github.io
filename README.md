@@ -13,27 +13,25 @@ We introduces a novel framework for open-set speaker identification in household
 ## Dataset
 We utilize two primary datasets in our research:
 
-- **Qualcomm Speech**:
+**Qualcomm Speech**: Dataset links and our experimental settings.
 
 [Link to Qualcomm Speech dataset](https://developer.qualcomm.com/project/keyword-speech-dataset)
 
-| Target Spk | Unknown Spk | N-fold |
+| Target Speakers | Unknown Speakers | N-fold |
 |----------|----------|----------|
-| Row 1, Cell 1 | Row 1, Cell 2 | 3 |
-| Row 2, Cell 1 | Row 2, Cell 2 | 3 |
-| Row 3, Cell 1 | Row 3, Cell 2 | 3 |
+| 5/10 | 10 | 3 |
 
-
-- **FFSVC HiMia**:
+**FFSVC HiMia**: Dataset links and our experimental settings.
 
 [Link to HiMia dataset](https://aishelltech.com/wakeup_data)
 
-| Column 1 | Column 2 | Column 3 |
+| Target Speakers | Unknown Speakers | N-fold |
 |----------|----------|----------|
-| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
-| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
-| Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 |
+| 5/10 | 10 | 3 |
 
+**Example split for training and testing**:
+
+[Example split](https://github.com/srplplus/srplplus.github.io)
 
 ## Pretrained Audio Large Model
 Our methodology is built upon a pretrained audio large model WavLM-base-plus for TDNN speaker verification, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for effective speaker identification.
