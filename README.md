@@ -62,7 +62,7 @@ Code used in this research for model training, and evaluation, is available for 
 [SRPL+ code repository](https://github.com/srplplus/srplplus.github.io)
 
 ## Visualization and Evaluations
-We present a series of visualizations and detailed evaluations to illustrate our method's effectiveness. The embedding plots clearly demostrate the effectiveness of our method.
+We present a series of visualizations and detailed evaluations to illustrate our method's effectiveness as in the paper. The t-sne embedding plots clearly demostrate the effectiveness of our method.
 
 ![emb plot](images/emb_srpl.png)
 
