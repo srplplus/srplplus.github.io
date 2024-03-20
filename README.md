@@ -1,7 +1,7 @@
 # Enhancing Open-Set Speaker Identification through Rapid Tuning with Speaker Reciprocal Points and Negative Samples
 
 ## Overview
-This project introduces an innovative approach to open-set speaker identification, leveraging rapid tuning techniques with speaker reciprocal points and the strategic use of negative samples. By refining the identification process, our method achieves significant improvements in accuracy and efficiency, setting a new benchmark in speaker recognition technology.
+We introduces a novel framework for open-set speaker identification in household environments, playing a crucial role in facilitating seamless human-computer interactions. Addressing the limitations of current speaker models and classification approaches, our work integrates an AudioLM frontend with a few-shot rapid tuning neural network (NN) backend for enrollment, employing task-optimized Speaker Reciprocal Points Learning (SRPL) to enhance discrimination across multiple target speakers. Furthermore, we propose an enhanced version of SRPL (SRPL+), which incorporates negative sample learning with both speech-synthesized and real negative samples to significantly improve open-set SID accuracy. Our approach is thoroughly evaluated across various multi-language datasets, demonstrating its effectiveness in achieving high usability for complex household multi-speaker scenarios and significantly enhancing open-set performance.
 
 <p align="center">
   <img src="images/srpl_arch.png" alt="SRPL+ Architecture" width="50%" />
