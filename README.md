@@ -9,6 +9,7 @@ This project introduces an innovative approach to open-set speaker identificatio
 <p align="center">
   <img src="images/srpl.png" alt="SRPL+ Process" width="50%" />
 </p>
+
 ## Dataset
 We utilize two primary datasets in our research:
 
