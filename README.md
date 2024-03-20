@@ -33,9 +33,10 @@ Our methodology is built upon a pretrained audio large model WavLM-base-plus for
 ## Evaluations
 The evaluation section details the performance metrics on open-set speaker identification. The Open Set Classification Rate (OSCR) calculates the area under the curve mapping the Correct Classification Rate (CCR) for known classes to the False Positive Rate (FPR) for unknown data, offering a threshold-independent evaluation for open-set.
 
-$CCR(TH) = \frac{|\{x \in TestData^{k} \mid \arg\max_{k} P(k|x) = k \cap P(k|x) \geq TH\}|}{|TestData^{k}|}$
+<!-- $CCR(TH) = \frac{|\{x \in TestData^{k} \mid \arg\max_{k} P(k|x) = k \cap P(k|x) \geq TH\}|}{|TestData^{k}|}$
 
-$FPR(TH) = \frac{|\{x \mid x \in Unknown \cap \max_k P(k|x) \geq TH\}|}{|Unknown|}$
+$FPR(TH) = \frac{|\{x \mid x \in Unknown \cap \max_k P(k|x) \geq TH\}|}{|Unknown|}$ -->
+![emb plot](images/eq.png)
 
 We provide this core evaluation metrics implementaion with other evaluation metrics in our code repository.
 
@@ -44,7 +45,7 @@ We provide this core evaluation metrics implementaion with other evaluation metr
 ## Code
 Code used in this research for model training, and evaluation, is available for public use after publication. This encourages reproducibility and further experimentation in the field.
 
-**Please note**: The model architecture and evaluation code for results reproduction are released. The training code for SRPL+ will be **released after the publication** of our research paper.
+**Please note**: The models, saved checkpoints, and evaluation code for reproducing results are now available. However, the training code for SRPL+ will be **released after the publication** of our research paper.
 
 [SRPL+ code repository](https://github.com/srplplus/srplplus.github.io)
 
