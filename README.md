@@ -50,9 +50,9 @@ The evaluation section details the performance metrics on open-set speaker ident
 $FPR(TH) = \frac{|\{x \mid x \in Unknown \cap \max_k P(k|x) \geq TH\}|}{|Unknown|}$ -->
 ![emb plot](images/eq.png)
 
-We provide this core evaluation metrics implementaion with other evaluation metrics in our code repository.
+We provide the implementation of core evaluation metrics, along with other evaluation metrics, in our code repository. An inference script is also provided to evaluate the model on our example testing split data.
 
-[Evaluation metrics implementation](https://github.com/srplplus/srplplus.github.io)
+[Inference script and evaluation metrics implementation](https://github.com/srplplus/srplplus.github.io)
 
 ## Code
 Code used in this research for model training, and evaluation, is available for public use after publication. This encourages reproducibility and further experimentation in the field.
