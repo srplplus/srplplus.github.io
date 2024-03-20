@@ -17,11 +17,11 @@ We utilize two primary datasets in our research:
 
 [Link to Qualcomm Speech dataset](https://developer.qualcomm.com/project/keyword-speech-dataset)
 
-| Column 1 | Column 2 | Column 3 |
+| Target Spk | Unknown Spk | N-fold |
 |----------|----------|----------|
-| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
-| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
-| Row 3, Cell 1 | Row 3, Cell 2 | Row 3, Cell 3 |
+| Row 1, Cell 1 | Row 1, Cell 2 | 3 |
+| Row 2, Cell 1 | Row 2, Cell 2 | 3 |
+| Row 3, Cell 1 | Row 3, Cell 2 | 3 |
 
 
 - **FFSVC HiMia**:
