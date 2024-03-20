@@ -3,15 +3,17 @@
 ## Overview
 This project introduces an innovative approach to open-set speaker identification, leveraging rapid tuning techniques with speaker reciprocal points and the strategic use of negative samples. By refining the identification process, our method achieves significant improvements in accuracy and efficiency, setting a new benchmark in speaker recognition technology.
 
+
+
 ## Dataset
 We utilize two primary datasets in our research:
-- **Qualcomm Speech**: 
+- **Qualcomm Speech**:
 
-[Link to Qualcomm Speech dataset]()
+[Link to Qualcomm Speech dataset](https://developer.qualcomm.com/project/keyword-speech-dataset)
 
-- **FFSVC HiMia**: 
+- **FFSVC HiMia**:
 
-[Link to HiMia dataset]()
+[Link to HiMia dataset](http://www.openslr.org/85/)
 
 ## Pretrained Audio Large Model
 Our methodology is built upon a pretrained audio large model WavLM-base-plus for TDNN speaker verification, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for effective speaker identification.
