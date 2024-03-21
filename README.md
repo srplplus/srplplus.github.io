@@ -34,7 +34,7 @@ We utilize two primary datasets in our research:
 [Example split](https://github.com/srplplus/srplplus.github.io)
 
 ## Pretrained Audio Large Model
-Our methodology is built upon a pretrained audio large model WavLM-base-plus for TDNN speaker verification, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for effective speaker identification.
+Our methodology is built upon a pretrained audio large model WavLM-base-plus for TDNN speaker verification, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for effective speaker identification. We use the 512 dimensional WavLM-base-plus with TDNN extracted speaker embedding for our backend rapid tuning and enrollment (SRPL+) models.
 
 [Link and Details to the pretrained WavLM-TDNN AudioLM](https://huggingface.co/microsoft/wavlm-base-plus-sv)
 
