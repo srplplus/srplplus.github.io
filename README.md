@@ -31,7 +31,7 @@ We utilize two primary datasets in our research:
 
 **Example split for training and testing**:
 
-[Example split](https://github.com/srplplus/srplplus.github.io)
+[Example split](https://github.com/srplplus/srplplus.github.io/tree/main/QSpeech_wavLMTDNN_embs/emb_test)
 
 ## Pretrained Audio Large Model
 Our methodology is built upon a pretrained audio large model WavLM-base-plus for TDNN speaker verification, specifically designed to capture the nuances of human speech and speaker characteristics. This model serves as the foundation for our rapid tuning process, allowing for effective speaker identification. We use the 512 dimensional WavLM-base-plus with TDNN extracted speaker embedding for our backend rapid tuning and enrollment (SRPL+) models.
@@ -52,7 +52,7 @@ $FPR(TH) = \frac{|\{x \mid x \in Unknown \cap \max_k P(k|x) \geq TH\}|}{|Unknown
 
 We provide the implementation of core evaluation metrics, along with other evaluation metrics, in our code repository. An inference script is also provided to evaluate the model on our example testing split data.
 
-[Inference script and evaluation metrics implementation](https://github.com/srplplus/srplplus.github.io)
+[Inference script and evaluation metrics implementation](https://github.com/srplplus/srplplus.github.io/blob/main/inference_demo.ipynb)
 
 ## Code
 Code used in this research for model training, and evaluation, is available for public use after publication. This encourages reproducibility and further experimentation in the field.
